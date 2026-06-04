@@ -9,7 +9,7 @@ Dokumen ini mencatat riwayat pembaruan berkas dan rilis fitur stabil ke reposito
 | No | Tanggal | Waktu | Berkas / Modul Terkait | Keterangan |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | 01 April 2026 | 12.32 | `01_instalasi_python.md`, `02_instalasi_matlab_octave.md` | Penambahan kode baru |
-| 2 | | | | |
+| 2 | 5 Juni 2026 | 04.32 | - | Initial commit with Logbook 2026.md <!-- commit:f31fbb7 --> |
 
 ---
 
@@ -17,3 +17,4 @@ Dokumen ini mencatat riwayat pembaruan berkas dan rilis fitur stabil ke reposito
 - **Tanggal & Waktu**: Saat berkas selesai di-upload/sync secara publik.
 - **Berkas / Modul Terkait**: Daftar berkas/folder yang dirilis (menggunakan format `kode`).
 - **Keterangan**: Rincian pembaruan, perbaikan bug, atau fitur baru yang dirilis.
+
