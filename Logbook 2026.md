@@ -13,6 +13,8 @@ Dokumen ini mencatat riwayat pembaruan berkas dan rilis fitur stabil ke reposito
 | 3 | 5 Juni 2026 | 05.00 | `00_Pendahuluan/01_instalasi_python.md`, `00_Pendahuluan/02_instalasi_matlab_octave.md`, `00_Pendahuluan/03_penggunaan_jupyter.md`, `00_Pendahuluan/04_struktur_repo.md`, `00_Pendahuluan/05_panduan_kontribusi.md`, `00_Pendahuluan/README.md`, `01_Metode_Numerik/01_Sistem_Persamaan_Linier/01_eliminasi_gauss.md`, `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py`, `01_Metode_Numerik/01_Sistem_Persamaan_Linier/README.md`, `Logbook 2026.md` | docs: merilis modul pendahuluan dan metode eliminasi gauss <!-- commit:95adf30 --> |
 | 4 | 5 Juni 2026 | 05.01 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik <!-- commit:23d32a6 --> |
 | 5 | 5 Juni 2026 | 05.01 | `README.md` | docs: menambahkan root README.md <!-- commit:28ec056 --> |
+| 6 | 5 Juni 2026 | 05.01 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik part 2 <!-- commit:fdaa790 --> |
+| 7 | 5 Juni 2026 | 05.07 | `README.md` | docs: menambahkan himbauan dan panduan kontribusi publik di root README.md <!-- commit:4931cfe --> |
 
 ---
 
