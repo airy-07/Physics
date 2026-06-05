@@ -54,7 +54,7 @@ Setelah hasil revisi stabil dan Anda ingin mempublikasikannya ke repo publik:
       - [ ] 05_iterasi_jacobi.xlsx
       - [ ] 06_iterasi_gauss_seidel.xlsx
     - [ ] **📁 MATLAB/**
-      - [ ] 01_eliminasi_gauss.m
+      - [x] 01_eliminasi_gauss.m
       - [ ] 02_eliminasi_gauss_jordan.m
       - [ ] 03_dekomposisi_lu.m
       - [ ] 05_iterasi_jacobi.m
