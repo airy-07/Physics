@@ -19,6 +19,8 @@ Dokumen ini mencatat riwayat pembaruan berkas dan rilis fitur stabil ke reposito
 | 9 | 6 Juni 2026 | 01.20 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py` | refactor: menyederhanakan demo eksekusi 01_eliminasi_gauss.py menjadi masukan interaktif <!-- commit:9c9201f --> |
 | 10 | 6 Juni 2026 | 01.20 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik part 4 <!-- commit:da3fa40 --> |
 | 11 | 6 Juni 2026 | 01.24 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py` | feat: menambahkan opsi verbose untuk mencetak langkah penyelesaian SPL <!-- commit:fc6b089 --> |
+| 12 | 6 Juni 2026 | 01.24 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik part 5 <!-- commit:cda9754 --> |
+| 13 | 6 Juni 2026 | 01.28 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py` | feat: merapikan output langkah-langkah eliminasi Gauss dan menambah opsi konfirmasi y/n <!-- commit:c890ee6 --> |
 
 ---
 
