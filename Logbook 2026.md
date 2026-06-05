@@ -17,6 +17,8 @@ Dokumen ini mencatat riwayat pembaruan berkas dan rilis fitur stabil ke reposito
 | 7 | 5 Juni 2026 | 05.07 | `README.md` | docs: menambahkan himbauan dan panduan kontribusi publik di root README.md <!-- commit:4931cfe --> |
 | 8 | 5 Juni 2026 | 05.08 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik part 3 <!-- commit:c4fbf2a --> |
 | 9 | 6 Juni 2026 | 01.20 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py` | refactor: menyederhanakan demo eksekusi 01_eliminasi_gauss.py menjadi masukan interaktif <!-- commit:9c9201f --> |
+| 10 | 6 Juni 2026 | 01.20 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik part 4 <!-- commit:da3fa40 --> |
+| 11 | 6 Juni 2026 | 01.24 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py` | feat: menambahkan opsi verbose untuk mencetak langkah penyelesaian SPL <!-- commit:fc6b089 --> |
 
 ---
 
