@@ -72,46 +72,50 @@ def eliminasi_gauss(A, b):
 
 if __name__ == '__main__':
     print("=" * 60)
-    print("DEMO METODE ELIMINASI GAUSS DENGAN PARTIAL PIVOTING")
+    print("SOLVER SPL - METODE ELIMINASI GAUSS")
     print("=" * 60)
     
-    # Studi Kasus Fisika: Hukum Kirchhoff untuk Rangkaian 3-Loop
-    # Persamaan arus loop I1, I2, I3:
-    # Loop 1:  10*I1 - 2*I2 - 3*I3 = 12
-    # Loop 2:  -2*I1 + 8*I2 - 1*I3 = 0
-    # Loop 3:  -3*I1 - 1*I2 + 6*I3 = -5
-    
-    A = np.array([
-        [10.0, -2.0, -3.0],
-        [-2.0,  8.0, -1.0],
-        [-3.0, -1.0,  6.0]
-    ])
-    
-    b = np.array([12.0, 0.0, -5.0])
-    
-    print("Matriks Koefisien A (Hambatan):")
-    print(A)
-    print("\nVektor Konstanta b (Tegangan Sumber):")
-    print(b)
-    
     try:
-        # Panggil fungsi eliminasi gauss
-        I = eliminasi_gauss(A, b)
+        # Masukan ukuran matriks
+        n = int(input("Masukkan jumlah baris/kolom matriks (N): "))
         
-        # Verifikasi dengan numpy solver bawaan
-        I_np = np.linalg.solve(A, b)
+        # Masukan elemen matriks A
+        print("\nMasukkan matriks koefisien A baris demi baris (pisahkan angka dengan spasi):")
+        A_rows = []
+        for i in range(n):
+            row = list(map(float, input(f"Baris {i+1}: ").split()))
+            if len(row) != n:
+                raise ValueError(f"Baris harus memiliki tepat {n} elemen.")
+            A_rows.append(row)
+        A = np.array(A_rows)
+        
+        # Masukan elemen vektor b
+        print(f"\nMasukkan vektor konstanta b ({n} angka dipisahkan dengan spasi):")
+        b = np.array(list(map(float, input("b: ").split())))
+        if len(b) != n:
+            raise ValueError(f"Vektor b harus memiliki tepat {n} elemen.")
+            
+        print("\nMatriks A:")
+        print(A)
+        print("Vektor b:")
+        print(b)
+        
+        # Selesaikan SPL
+        x = eliminasi_gauss(A, b)
         
         print("\n" + "-" * 40)
-        print("HASIL PERHITUNGAN:")
+        print("SOLUSI (x):")
         print("-" * 40)
-        print(f"Arus Loop I1 = {I[0]:.6f} Ampere")
-        print(f"Arus Loop I2 = {I[1]:.6f} Ampere")
-        print(f"Arus Loop I3 = {I[2]:.6f} Ampere")
-        
-        # Cetak perbandingan selisih
-        selisih = np.linalg.norm(I - I_np)
-        print(f"\nVerifikasi dengan np.linalg.solve: OK (Norm Selisih = {selisih:.2e})")
+        for i in range(n):
+            print(f"x[{i+1}] = {x[i]:.6f}")
+            
+        # Verifikasi dengan np.linalg.solve
+        x_np = np.linalg.solve(A, b)
+        selisih = np.linalg.norm(x - x_np)
+        print(f"\nVerifikasi (Selisih Norm dengan NumPy solver): {selisih:.2e}")
         print("=" * 60)
         
     except ValueError as e:
-        print(f"\nTerjadi Kesalahan: {e}")
+        print(f"\nKesalahan input: {e}")
+    except Exception as e:
+        print(f"\nTerjadi kesalahan: {e}")
