@@ -21,6 +21,8 @@ Dokumen ini mencatat riwayat pembaruan berkas dan rilis fitur stabil ke reposito
 | 11 | 6 Juni 2026 | 01.24 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py` | feat: menambahkan opsi verbose untuk mencetak langkah penyelesaian SPL <!-- commit:fc6b089 --> |
 | 12 | 6 Juni 2026 | 01.24 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik part 5 <!-- commit:cda9754 --> |
 | 13 | 6 Juni 2026 | 01.28 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/Python/01_eliminasi_gauss.py` | feat: merapikan output langkah-langkah eliminasi Gauss dan menambah opsi konfirmasi y/n <!-- commit:c890ee6 --> |
+| 14 | 6 Juni 2026 | 01.28 | `Logbook 2026.md` | docs: sinkronisasi logbook rilis publik part 6 <!-- commit:c3f1caf --> |
+| 15 | 6 Juni 2026 | 01.35 | `01_Metode_Numerik/01_Sistem_Persamaan_Linier/MATLAB/01_eliminasi_gauss.m` | feat: implementasi metode Eliminasi Gauss di MATLAB/Octave dengan mode verbose <!-- commit:c5b6f96 --> |
 
 ---
 
